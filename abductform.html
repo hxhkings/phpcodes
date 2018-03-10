@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Report an Abduction Form</title>
+	<style>
+		div#form{
+			width:600px;
+			height:600px;
+			margin:auto;
+			background: #FFF;
+			padding:10px;
+		}
+		body{
+			background: #000;
+		}
+		input[type=text], textarea{
+			position: relative;
+			left:300px;
+			border: 3px inset;
+		}
+		input#aliendescription, input#whattheydid{
+			width:300px;
+		}
+		label{
+			border-size:3px;
+			position:absolute;
+		}
+
+		div#radio{
+			position:relative;
+			left:300px;
+		}
+		label[for=other]{
+			line-height:3.75em;
+		}
+	</style>
+</head>
+<body>
+	<div id="form">
+	<h1>Aliens Abducted Me - Report an Abduction</h1>
+	<p>Share your story of alien abduction:</p>
+	<form method="post" action="reports.php">
+		
+		<label for="firstname">First name:</label>
+		<input type="text" id="firstname" name="firstname"><br>
+		<label for="lastname">Last name:</label>
+		<input type="text" id="lastname" name="lastname"><br>
+		<label for="email">What is your email address?</label>
+		<input type="text" id="email" name="email"><br>
+		<label for="whenithappened">When did it happen?</label>
+		<input type="text" id="whenithappened" name="whenithappened"><br>
+		<label for="howlong">How long were you gone?</label>
+		<input type="text" id="howlong" name="howlong"><br>
+		<label for="howmany">How many did you see?</label>
+		<input type="text" id="howmany" name="howmany"><br>
+		<label for="aliendescription">Describe them:</label>
+		<input type="text" id="aliendescription" name="aliendescription"><br>
+		<label for="whattheydid">What did they do to you?</label>
+		<input type="text" id="whattheydid" name="whattheydid"><br>
+		<label for="mousseyspotted">Have you seen my dog Moussey?</label>
+		<div id="radio">
+		Yes <input type="radio" id="mousseyspotted" name="mousseyspotted" value="yes">
+		No <input type="radio" id="mousseyspotted" name="mousseyspotted" value="no"><br>
+		</div>
+		<img src="moussey.jpg" width="200" height="175" alt="My abducted dog Moussey."><br>
+		<label for="other">Anything else you want to add?</label>
+		<textarea id="other" name="other"></textarea><br>
+		<input type="submit" value="Report Abduction" name="submit">
+	</form>
+	</div>
+</body>
+</html>

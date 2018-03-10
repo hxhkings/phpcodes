@@ -1,0 +1,105 @@
+@font-face{
+	font-family: Stardust;
+	src: url(stardust_adventure.ttf);
+}
+@font-face{
+	font-family: Storyteller;
+	src: url(storyteller.ttf);
+}
+.error{
+	font-weight:bold;
+	color:#ff0000;
+}
+span.login{
+	font-family: Stardust;
+	font-size: 40px;
+	color: #ff3344;
+	background-color: white;
+	text-decoration:none;
+}
+a, a:hover{
+	text-decoration:none;
+}
+
+div.edit{
+	top:30px;
+}
+img.prof{
+	border-bottom: -100px;
+}
+body{
+	max-height:100%;
+	min-height:100%;
+	margin-bottom:-150px;
+	background-image: url("image/mismatch.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top right;
+	background-size: 90%;
+	
+}
+div.container-fluid{
+	margin:0px 0px 30px 30px;
+}
+h3{
+	font-family: Storyteller;
+	font-size: 40px;
+	color:#ff3344;
+}
+div.foot{
+	background-color:transparent;
+	color:#ff3344;
+	position:fixed;
+	bottom:0;	
+	display:block;
+	padding:0;
+}
+div.foots{
+	background-color:transparent;
+	color:#ff3344;
+	display:block;
+	padding:0;
+}
+p.list{
+	color:#333;
+	display:block;
+	font-weight:bold;
+}
+form, table, p.success{
+	background-color:#fff;
+}
+img{
+	border:1px dashed #ff3344;
+	margin: 2px;
+}
+
+}
+
+hr{
+	border:1px dashed #ff3344;
+}
+.footer{
+	text-indent:40px;
+	margin-top:-12px;
+	font-weight: bold;
+}
+legend, h4, .login{
+	font-weight: bolder;
+	color:#ff3344;
+	font-family: Times serif;
+	font-size:20px;
+	background-color:#fff;
+}
+h5{
+	font-weight: bolder;
+	color:#ff3344;
+	font-family: Times serif;
+	font-size:20px;
+}
+
+.signup{
+	font-weight: bolder;
+	color:#ff3344;
+	font-family: Times serif;
+	background-color:#fff;
+}

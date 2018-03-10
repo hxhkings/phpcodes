@@ -1,0 +1,18 @@
+.error{
+	font-weight:bold;
+	color:#ff0000;
+}
+.topscoreheader{
+	text-align:center;
+	font-size:200%;
+	background-color:#36407f;
+	color:#ffffff;
+}
+.score{
+	font-size:150%;
+	color:#36407f;
+}
+.scoreinfo{
+	vertical-align:top;
+	padding-right:15px;
+}

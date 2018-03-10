@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Make Me Elvis</title>
+	<style>
+		body{
+			background-color:#333;
+
+		}
+		div#flex-container{
+			display:flex;
+			align-items:center;
+			justify-content:center;
+			margin:auto;
+			background-color: #fff;
+			width:500px;
+			height:300px;
+
+		}
+		label{
+			position:absolute;
+		}
+		input:not([type=button]){
+			position:relative;
+			left:150px;
+		}
+		input[type=submit]{
+			border-radius:20px;
+			position:static;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="flex-container">
+	<div id="form">
+	<h1>MakeMeElvis.com</h1>
+	<p>Enter your first name, last name, and email to be added to<br> the <b>Make Me Elvis</b> mailing list.</p>
+	<form  method="post" action="addemail.php">
+		<label for="firstname">First Name: </label>
+		<input type="text" id="firstname" name="firstname"><br>
+		<label for="lastname">Last Name: </label>
+		<input type="text" id="lastname" name="lastname"><br>
+		<label for="email">Email: </label>
+		<input type="text" id="email" name="email"><br>
+		<input type="submit" name="submit" id="btn" value="Submit">
+	</form>
+	</div>
+	</div>
+</body>
+</html>
